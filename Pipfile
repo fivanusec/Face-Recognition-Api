@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2 = "*"
+mtcnn = "*"
+pillow = "*"
+opencv-python = "*"
+tensorflow = "*"
+numpy = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+cmake = "*"
+dlib = "*"
+face-recognition = "*"
+deepface = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
