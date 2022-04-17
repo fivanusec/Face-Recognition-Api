@@ -128,8 +128,8 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
-REF_ROOT = os.path.join(BASE_DIR, 'ref/')
-REF_URL = '/ref/'
+REF_ROOT = os.path.join(BASE_DIR, 'database/')
+REF_URL = '/database/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

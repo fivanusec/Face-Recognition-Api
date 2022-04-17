@@ -19,6 +19,8 @@ dlib = "*"
 face-recognition = "*"
 deepface = "*"
 pandas = "*"
+tzdata = "*"
+imagehash = "*"
 
 [dev-packages]
 
