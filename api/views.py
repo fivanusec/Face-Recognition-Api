@@ -9,8 +9,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 import pandas as pd
 from .utils import upload_image_handler
-from .serializers import StudentSerializer
-from .models import Students
+from .serializer import StudentSerializer
+from .model import Students
 
 
 class Image(APIView):

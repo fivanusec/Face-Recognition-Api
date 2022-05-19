@@ -11,9 +11,7 @@ pillow = "*"
 opencv-python = "*"
 tensorflow = "*"
 numpy = "*"
-djangorestframework = "*"
 django-cors-headers = "*"
-djangorestframework-simplejwt = "*"
 cmake = "*"
 dlib = "*"
 face-recognition = "*"
@@ -21,6 +19,8 @@ deepface = "*"
 pandas = "*"
 tzdata = "*"
 imagehash = "*"
+djangorestframework = "*"
+django-redis = "*"
 
 [dev-packages]
 

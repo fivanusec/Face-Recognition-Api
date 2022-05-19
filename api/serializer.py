@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer, ValidationError
 
-from ..models import Students
+from api.model import Students
 
 
 class StudentSerializer(ModelSerializer):
