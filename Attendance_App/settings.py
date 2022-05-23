@@ -170,3 +170,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 FORGOT_PASSWORD_PREFIX = "forgot-password"
 CONFIRM_ACCOUNT_PREFIX = "confirm-account"
+SET_ATTENDANCE = "attendance-token"

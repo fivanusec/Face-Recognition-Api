@@ -1,7 +1,9 @@
 from django.urls import path
-from .views import Image, CreateNewModel
+from .views import RecognitionView, ModelView, AttendanceView, ConfirmAttendance
 
 urlpatterns = [
-    path("image/", Image.as_view(), name="New image"),
-    path("model/", CreateNewModel.as_view(), name="Create new model")
+    path("recognition/", RecognitionView.as_view(), name="New image"),
+    path("model/", ModelView.as_view(), name="Create new model"),
+    path("attendance/", AttendanceView.as_view(), name="attendance"),
+    path("confirm-attendance/<str:token>", ConfirmAttendance.as_view())
 ]
